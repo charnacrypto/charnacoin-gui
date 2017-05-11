@@ -89,7 +89,8 @@ Item {
             console.log("setting demo token")
             bearerToken = encodeURIComponent(Helper.demoToken())
             tweetsModel.phrase = ""
-            tweetsModel.from = "@monerocurrency"
+            // @TODO:#CHARNACOIN properly set this (official twitter pseudo, ...)
+            tweetsModel.from = "@charnacoincurrency"
             // reload()
             return;
         }

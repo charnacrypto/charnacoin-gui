@@ -2320,12 +2320,12 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="709"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
+        <source>This address received %1 charnacoin, but the transaction is not yet mined</source>
         <translation>このアドレスは%1XMRを受け取りましたが、取引はまだ採掘されていません。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="714"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
+        <source>This address received %1 charnacoin, with %2 confirmation(s).</source>
         <translation>このアドレスは%1XMRを受け取り、その取引は%2回承認されました。</translation>
     </message>
     <message>
@@ -2360,8 +2360,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1310"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>新しいバージョンのmonero-wallet-guiを入手できます: %1&lt;br&gt;%2</translation>
+        <source>New version of charnacoin-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>新しいバージョンのcharnacoin-wallet-guiを入手できます: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <source>Please confirm transaction:

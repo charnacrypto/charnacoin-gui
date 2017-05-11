@@ -2218,12 +2218,12 @@ Bonvolu plibonigi aŭ konekti al alia demono</translation>
     </message>
     <message>
         <location filename="../main.qml" line="709"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Tio ĉi adreso ricevis %1 moneron; sed la transakcio ankoraŭ ne minatas</translation>
+        <source>This address received %1 charnacoin, but the transaction is not yet mined</source>
+        <translation>Tio ĉi adreso ricevis %1 charnacoin; sed la transakcio ankoraŭ ne minatas</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmations</source>
-        <translation type="vanished">Tio ĉi adreso ricevis %1 moneron, kun %2 da konfirmoj</translation>
+        <source>This address received %1 charnacoin, with %2 confirmations</source>
+        <translation type="vanished">Tio ĉi adreso ricevis %1 charnacoin, kun %2 da konfirmoj</translation>
     </message>
     <message>
         <location filename="../main.qml" line="718"/>
@@ -2348,8 +2348,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1310"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nova versio de monero-wallet-gui disponeblas:  %1&lt;br&gt;%2</translation>
+        <source>New version of charnacoin-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Nova versio de charnacoin-wallet-gui disponeblas:  %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <source>Address: </source>
@@ -2385,8 +2385,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="714"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Tio adreso ricevis %1 monero, kun %2 da konfirmo(j)</translation>
+        <source>This address received %1 charnacoin, with %2 confirmation(s).</source>
+        <translation>Tio adreso ricevis %1 charnacoin, kun %2 da konfirmo(j)</translation>
     </message>
     <message>
         <location filename="../main.qml" line="730"/>

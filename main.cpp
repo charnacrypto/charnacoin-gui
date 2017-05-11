@@ -75,16 +75,16 @@ int main(int argc, char *argv[])
 #endif
 
     // Log settings
-    Monero::Wallet::init(argv[0], "monero-wallet-gui");
+    Monero::Wallet::init(argv[0], "charnacoin-wallet-gui");
     qInstallMessageHandler(messageHandler);
 
     MainApp app(argc, argv);
 
     qDebug() << "app startd";
 
-    app.setApplicationName("monero-core");
-    app.setOrganizationDomain("getmonero.org");
-    app.setOrganizationName("monero-project");
+    app.setApplicationName("charnacoin-gui");
+    app.setOrganizationDomain("charnacoin.com");
+    app.setOrganizationName("charnacrypto");
 
     filter *eventFilter = new filter;
     app.installEventFilter(eventFilter);
@@ -160,7 +160,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("daemonManager", daemonManager);
 #endif
 
-//  export to QML monero accounts root directory
+//  export to QML charnacoin accounts root directory
 //  wizard is talking about where
 //  to save the wallet file (.keys, .bin), they have to be user-accessible for
 //  backups - I reckon we save that in My Documents\Monero Accounts\ on
@@ -196,7 +196,7 @@ int main(int argc, char *argv[])
         accountName = qgetenv("USERNAME"); // Windows
     }
     if (accountName.isEmpty()) {
-        accountName = "My monero Account";
+        accountName = "My charnacoin Account";
     }
 
     engine.rootContext()->setContextProperty("defaultAccountName", accountName);

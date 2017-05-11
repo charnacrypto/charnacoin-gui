@@ -70,7 +70,7 @@ Rectangle {
     width: 260
     color: "#FFFFFF"
 
-    // Item with monero logo
+    // Item with charnacoin logo
     Item {
         id: logoItem
         anchors.left: parent.left
@@ -83,7 +83,7 @@ Rectangle {
             id: logo
             anchors.left: parent.left
             anchors.leftMargin: 50
-            source: "images/moneroLogo.png"
+            source: "images/charnacoinLogo.png"
         }
 
         Text {

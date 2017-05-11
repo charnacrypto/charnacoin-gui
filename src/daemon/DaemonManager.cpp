@@ -30,7 +30,7 @@ DaemonManager *DaemonManager::instance(const QStringList *args)
 
 bool DaemonManager::start(const QString &flags, bool testnet)
 {
-    // prepare command line arguments and pass to monerod
+    // prepare command line arguments and pass to charnacoind
     QStringList arguments;
 
     // Start daemon with --detach flag on non-windows platforms
@@ -56,7 +56,7 @@ bool DaemonManager::start(const QString &flags, bool testnet)
 
     arguments << "--check-updates" << "disabled";
 
-    qDebug() << "starting monerod " + m_monerod;
+    qDebug() << "starting charnacoind " + m_monerod;
     qDebug() << "With command line arguments " << arguments;
 
     m_daemon = new QProcess();
@@ -66,7 +66,7 @@ bool DaemonManager::start(const QString &flags, bool testnet)
     connect (m_daemon, SIGNAL(readyReadStandardOutput()), this, SLOT(printOutput()));
     connect (m_daemon, SIGNAL(readyReadStandardError()), this, SLOT(printError()));
 
-    // Start monerod
+    // Start charnacoind
     bool started = m_daemon->startDetached(m_monerod, arguments);
 
     // add state changed listener
@@ -148,9 +148,9 @@ bool DaemonManager::stopWatcher(bool testnet) const
             if(counter >= 5) {
                 qDebug() << "Killing it! ";
 #ifdef Q_OS_WIN
-                QProcess::execute("taskkill /F /IM monerod.exe");
+                QProcess::execute("taskkill /F /IM charnacoind.exe");
 #else
-                QProcess::execute("pkill monerod");
+                QProcess::execute("pkill charnacoind");
 #endif
             }
 
@@ -196,7 +196,7 @@ bool DaemonManager::running(bool testnet) const
     QString status;
     sendCommand("status",testnet, status);
     qDebug() << status;
-    // `./monerod status` returns BUSY when syncing.
+    // `./charnacoind status` returns BUSY when syncing.
     // Treat busy as connected, until fixed upstream.
     if (status.contains("Height:") || status.contains("BUSY") ) {
         return true;
@@ -238,11 +238,11 @@ DaemonManager::DaemonManager(QObject *parent)
     : QObject(parent)
 {
 
-    // Platform depetent path to monerod
+    // Platform depetent path to charnacoind
 #ifdef Q_OS_WIN
-    m_monerod = QApplication::applicationDirPath() + "/monerod.exe";
+    m_monerod = QApplication::applicationDirPath() + "/charnacoind.exe";
 #elif defined(Q_OS_UNIX)
-    m_monerod = QApplication::applicationDirPath() + "/monerod";
+    m_monerod = QApplication::applicationDirPath() + "/charnacoind";
 #endif
 
     if (m_monerod.length() == 0) {

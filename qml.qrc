@@ -8,7 +8,7 @@
         <file>images/helpIcon.png</file>
         <file>images/maximizeIcon.png</file>
         <file>images/minimizeIcon.png</file>
-        <file>images/moneroLogo.png</file>
+        <file>images/charnacoinLogo.png</file>
         <file>components/Label.qml</file>
         <file>images/whatIsIcon.png</file>
         <file>images/lockIcon.png</file>
@@ -52,7 +52,7 @@
         <file>components/Scroll.qml</file>
         <file>components/AddressBookTable.qml</file>
         <file>images/deleteIcon.png</file>
-        <file>images/moneroIcon.png</file>
+        <file>images/charnacoinIcon.png</file>
         <file>components/StandardDropdown.qml</file>
         <file>images/whiteDropIndicator.png</file>
         <file>components/PrivacyLevel.qml</file>
@@ -75,7 +75,7 @@
         <file>images/gotoBasicVersion.png</file>
         <file>images/goToBasicVersionHovered.png</file>
         <file>BasicPanel.qml</file>
-        <file>images/moneroLogo2.png</file>
+        <file>images/charnacoinLogo2.png</file>
         <file>components/PrivacyLevelSmall.qml</file>
         <file>images/checkedVioletIcon.png</file>
         <file>images/resize.png</file>

@@ -2292,8 +2292,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="714"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>这个地址收入了 %1 monero，并通过 %2 次的确认。</translation>
+        <source>This address received %1 charnacoin, with %2 confirmation(s).</source>
+        <translation>这个地址收入了 %1 charnacoin，并通过 %2 次的确认。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1272"/>
@@ -2312,7 +2312,7 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1310"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of charnacoin-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation>有可用的新版本 Monero 钱包:  %1&lt;br&gt;%2</translation>
     </message>
     <message>
@@ -2376,12 +2376,12 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="709"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>这个地址已收到 %1 monero币，但这笔交易尚未被矿工确认</translation>
+        <source>This address received %1 charnacoin, but the transaction is not yet mined</source>
+        <translation>这个地址已收到 %1 charnacoin币，但这笔交易尚未被矿工确认</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmations</source>
-        <translation type="vanished">这个地址已收到 %1 monero币，并已经过 %2 次的确认</translation>
+        <source>This address received %1 charnacoin, with %2 confirmations</source>
+        <translation type="vanished">这个地址已收到 %1 charnacoin币，并已经过 %2 次的确认</translation>
     </message>
     <message>
         <location filename="../main.qml" line="718"/>

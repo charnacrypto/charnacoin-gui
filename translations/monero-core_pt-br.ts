@@ -2258,8 +2258,8 @@ Ringsize: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="714"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Este endereço recebeu %1 monero, com %2 confirmação(ões)</translation>
+        <source>This address received %1 charnacoin, with %2 confirmation(s).</source>
+        <translation>Este endereço recebeu %1 charnacoin, com %2 confirmação(ões)</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1272"/>
@@ -2278,7 +2278,7 @@ Ringsize: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1310"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of charnacoin-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation>Nova versão da GUI do Monero disponível: %1&lt;br&gt;</translation>
     </message>
     <message>
@@ -2342,12 +2342,12 @@ Descrição: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="709"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Este endereço recebeu %1 monero, porém a transação ainda não foi minerada</translation>
+        <source>This address received %1 charnacoin, but the transaction is not yet mined</source>
+        <translation>Este endereço recebeu %1 charnacoin, porém a transação ainda não foi minerada</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmations</source>
-        <translation type="vanished">Este endereço recebeu %1 monero, com %2 confirmações</translation>
+        <source>This address received %1 charnacoin, with %2 confirmations</source>
+        <translation type="vanished">Este endereço recebeu %1 charnacoin, com %2 confirmações</translation>
     </message>
     <message>
         <location filename="../main.qml" line="718"/>

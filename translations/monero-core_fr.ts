@@ -2406,8 +2406,8 @@ Taille du cercle : </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1310"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Une nouvelle version de monero-wallet-gui est disponible : %1&lt;br&gt;%2</translation>
+        <source>New version of charnacoin-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Une nouvelle version de charnacoin-wallet-gui est disponible : %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <source>
@@ -2419,8 +2419,8 @@ Taille du cercle : </translation>
     </message>
     <message>
         <location filename="../main.qml" line="714"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Cette adresse a reçu %1 monero, avec %2 confirmation(s).</translation>
+        <source>This address received %1 charnacoin, with %2 confirmation(s).</source>
+        <translation>Cette adresse a reçu %1 charnacoin, avec %2 confirmation(s).</translation>
     </message>
     <message>
         <source>
@@ -2483,12 +2483,12 @@ Description : </translation>
     </message>
     <message>
         <location filename="../main.qml" line="709"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Cette adresse a reçu %1 monero, mais la transaction n&apos;a pas encore été incluse dans un bloc</translation>
+        <source>This address received %1 charnacoin, but the transaction is not yet mined</source>
+        <translation>Cette adresse a reçu %1 charnacoin, mais la transaction n&apos;a pas encore été incluse dans un bloc</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmations</source>
-        <translation type="vanished">Cette adresse a reçu %1 monero, avec %2 confirmations</translation>
+        <source>This address received %1 charnacoin, with %2 confirmations</source>
+        <translation type="vanished">Cette adresse a reçu %1 charnacoin, avec %2 confirmations</translation>
     </message>
     <message>
         <location filename="../main.qml" line="718"/>

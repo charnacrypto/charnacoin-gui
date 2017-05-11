@@ -2324,7 +2324,7 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="655"/>
         <source>Couldn&apos;t send the money: </source>
-        <translation>Tidak bisa mengirim uang monero: </translation>
+        <translation>Tidak bisa mengirim uang charnacoin: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="658"/>
@@ -2334,7 +2334,7 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="664"/>
         <source>Money sent successfully: %1 transaction(s) </source>
-        <translation>Uang monero dikirim dengan sukses: %1 transaksi </translation>
+        <translation>Uang charnacoin dikirim dengan sukses: %1 transaksi </translation>
     </message>
     <message>
         <location filename="../main.qml" line="664"/>
@@ -2348,13 +2348,13 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="709"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Alamat ini menerima %1 monero, tetapi transaksinya belum termasuk dalam blok</translation>
+        <source>This address received %1 charnacoin, but the transaction is not yet mined</source>
+        <translation>Alamat ini menerima %1 charnacoin, tetapi transaksinya belum termasuk dalam blok</translation>
     </message>
     <message>
         <location filename="../main.qml" line="714"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Alamat ini menerima %1 monero, dengan %2 konfirmasi.</translation>
+        <source>This address received %1 charnacoin, with %2 confirmation(s).</source>
+        <translation>Alamat ini menerima %1 charnacoin, dengan %2 konfirmasi.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1272"/>
@@ -2373,12 +2373,12 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1310"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Versi baru untuk monero-wallet-gui tersedia: %1&lt;br&gt;%2</translation>
+        <source>New version of charnacoin-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Versi baru untuk charnacoin-wallet-gui tersedia: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmations</source>
-        <translation type="vanished">Alamat ini menerima %1 monero, dengan  %2 konfirmasi</translation>
+        <source>This address received %1 charnacoin, with %2 confirmations</source>
+        <translation type="vanished">Alamat ini menerima %1 charnacoin, dengan  %2 konfirmasi</translation>
     </message>
     <message>
         <location filename="../main.qml" line="718"/>

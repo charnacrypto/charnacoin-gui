@@ -1258,12 +1258,12 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="562"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
+        <source>This address received %1 charnacoin, but the transaction is not yet mined</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="567"/>
-        <source>This address received %1 monero, with %2 confirmations</source>
+        <source>This address received %1 charnacoin, with %2 confirmations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

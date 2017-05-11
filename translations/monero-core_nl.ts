@@ -2306,12 +2306,12 @@ Omschrijving:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="714"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Dit adres heeft %1 monero ontvangen, maar de transactie is nog niet verwerkt</translation>
+        <source>This address received %1 charnacoin, but the transaction is not yet mined</source>
+        <translation>Dit adres heeft %1 charnacoin ontvangen, maar de transactie is nog niet verwerkt</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmations</source>
-        <translation type="vanished">Dit adres heeft %1 monero ontvangen, met %2 bevestigingen</translation>
+        <source>This address received %1 charnacoin, with %2 confirmations</source>
+        <translation type="vanished">Dit adres heeft %1 charnacoin ontvangen, met %2 bevestigingen</translation>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
@@ -2424,8 +2424,8 @@ Ringgrootte:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="719"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Did adres heeft %1 monero ontvangen, met %2 bevestiging(en).</translation>
+        <source>This address received %1 charnacoin, with %2 confirmation(s).</source>
+        <translation>Did adres heeft %1 charnacoin ontvangen, met %2 bevestiging(en).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="735"/>
@@ -2474,8 +2474,8 @@ Ringgrootte:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1315"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nieuwe monero-wallet-gu versiei is beschikbaar: %1&lt;br&gt;%2</translation>
+        <source>New version of charnacoin-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Nieuwe charnacoin-wallet-gu versiei is beschikbaar: %1&lt;br&gt;%2</translation>
     </message>
 </context>
 </TS>

@@ -2274,8 +2274,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="714"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="unfinished">Questo indirizzo ha ricevuto %1 monero con %2 conferme.</translation>
+        <source>This address received %1 charnacoin, with %2 confirmation(s).</source>
+        <translation type="unfinished">Questo indirizzo ha ricevuto %1 charnacoin con %2 conferme.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1272"/>
@@ -2294,7 +2294,7 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1310"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of charnacoin-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="unfinished">Una nuova versione interfaccia grafica disponibile: %1&lt;br&gt;%2</translation>
     </message>
     <message>
@@ -2373,8 +2373,8 @@ Fee: </source>
     </message>
     <message>
         <location filename="../main.qml" line="709"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="unfinished">Questo indirizzo ha ricevuto %1 monero ma la transazione non è ancora stata minata</translation>
+        <source>This address received %1 charnacoin, but the transaction is not yet mined</source>
+        <translation type="unfinished">Questo indirizzo ha ricevuto %1 charnacoin ma la transazione non è ancora stata minata</translation>
     </message>
     <message>
         <location filename="../main.qml" line="718"/>

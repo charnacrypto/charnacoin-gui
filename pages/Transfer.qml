@@ -149,7 +149,7 @@ Rectangle {
 
               Image {
                   anchors.centerIn: parent
-                  source: "../images/moneroIcon.png"
+                  source: "../images/charnacoinIcon.png"
               }
           }
           // Amount input
