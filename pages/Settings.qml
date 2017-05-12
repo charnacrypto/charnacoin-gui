@@ -85,10 +85,10 @@ Rectangle {
             StandardButton {
                 id: closeWalletButton
                 text: qsTr("Close wallet") + translationManager.emptyString
-                shadowReleasedColor: "#FF4304"
-                shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                shadowReleasedColor: "#FFB300"
+                shadowPressedColor: "#B37E00"
+                releasedColor: "#FCB819"
+                pressedColor: "#FFB300"
                 visible: true
                 onClicked: {
                     console.log("closing wallet button clicked")
@@ -100,10 +100,10 @@ Rectangle {
                 enabled: !viewOnly
                 id: createViewOnlyWalletButton
                 text: qsTr("Create view only wallet") + translationManager.emptyString
-                shadowReleasedColor: "#FF4304"
-                shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                shadowReleasedColor: "#FFB300"
+                shadowPressedColor: "#B37E00"
+                releasedColor: "#FCB819"
+                pressedColor: "#FFB300"
                 visible: true
                 onClicked: {
                     wizard.openCreateViewOnlyWalletPage();
@@ -112,10 +112,10 @@ Rectangle {
 
             StandardButton {
                 id: showSeedButton
-                shadowReleasedColor: "#FF4304"
-                shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                shadowReleasedColor: "#FFB300"
+                shadowPressedColor: "#B37E00"
+                releasedColor: "#FCB819"
+                pressedColor: "#FFB300"
                 text: qsTr("Show seed") + translationManager.emptyString
                 onClicked: {
                     settingsPasswordDialog.open();
@@ -150,10 +150,10 @@ Rectangle {
                 enabled: !appWindow.daemonRunning
                 id: startDaemonButton
                 text: qsTr("Start daemon") + translationManager.emptyString
-                shadowReleasedColor: "#FF4304"
-                shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                shadowReleasedColor: "#FFB300"
+                shadowPressedColor: "#B37E00"
+                releasedColor: "#FCB819"
+                pressedColor: "#FFB300"
                 onClicked: {
                     appWindow.startDaemon(daemonFlags.text)
                 }
@@ -164,10 +164,10 @@ Rectangle {
                 enabled: appWindow.daemonRunning
                 id: stopDaemonButton
                 text: qsTr("Stop daemon") + translationManager.emptyString
-                shadowReleasedColor: "#FF4304"
-                shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                shadowReleasedColor: "#FFB300"
+                shadowPressedColor: "#B37E00"
+                releasedColor: "#FCB819"
+                pressedColor: "#FFB300"
                 onClicked: {
                     appWindow.stopDaemon()
                 }
@@ -177,10 +177,10 @@ Rectangle {
                 visible: true
                 id: daemonStatusButton
                 text: qsTr("Show status") + translationManager.emptyString
-                shadowReleasedColor: "#FF4304"
-                shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                shadowReleasedColor: "#FFB300"
+                shadowPressedColor: "#B37E00"
+                releasedColor: "#FCB819"
+                pressedColor: "#FFB300"
                 onClicked: {
                     daemonManager.sendCommand("status",currentWallet.testnet);
                     daemonConsolePopup.open();
@@ -273,10 +273,10 @@ Rectangle {
                 Layout.fillWidth: false
                 Layout.leftMargin: 30
                 text: qsTr("Connect") + translationManager.emptyString
-                shadowReleasedColor: "#FF4304"
-                shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                shadowReleasedColor: "#FFB300"
+                shadowPressedColor: "#B37E00"
+                releasedColor: "#FCB819"
+                pressedColor: "#FFB300"
                 visible: true
                 onClicked: {
                     console.log("saving daemon adress settings")

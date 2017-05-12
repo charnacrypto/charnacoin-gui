@@ -165,10 +165,10 @@ Rectangle {
                     anchors.right: parent.right
                     width: 60
                     text: qsTr("Sign") + translationManager.emptyString
-                    shadowReleasedColor: "#FF4304"
-                    shadowPressedColor: "#B32D00"
-                    releasedColor: "#FF6C3C"
-                    pressedColor: "#FF4304"
+                    shadowReleasedColor: "#FFB300"
+                    shadowPressedColor: "#B37E00"
+                    releasedColor: "#FCB819"
+                    pressedColor: "#FFB300"
                     enabled: true
                     onClicked: {
                       var signature = appWindow.currentWallet.signMessage(signMessageLine.text, false)
@@ -206,10 +206,10 @@ Rectangle {
                     anchors.rightMargin: 17
                     width: 60
                     text: qsTr("Select") + translationManager.emptyString
-                    shadowReleasedColor: "#FF4304"
-                    shadowPressedColor: "#B32D00"
-                    releasedColor: "#FF6C3C"
-                    pressedColor: "#FF4304"
+                    shadowReleasedColor: "#FFB300"
+                    shadowPressedColor: "#B37E00"
+                    releasedColor: "#FCB819"
+                    pressedColor: "#FFB300"
                     enabled: true
                     onClicked: {
                       signFileDialog.open()
@@ -240,10 +240,10 @@ Rectangle {
                     anchors.right: parent.right
                     width: 60
                     text: qsTr("Sign") + translationManager.emptyString
-                    shadowReleasedColor: "#FF4304"
-                    shadowPressedColor: "#B32D00"
-                    releasedColor: "#FF6C3C"
-                    pressedColor: "#FF4304"
+                    shadowReleasedColor: "#FFB300"
+                    shadowPressedColor: "#B37E00"
+                    releasedColor: "#FCB819"
+                    pressedColor: "#FFB300"
                     enabled: true
                     onClicked: {
                       var signature = appWindow.currentWallet.signMessage(signFileLine.text, true)
@@ -350,10 +350,10 @@ Rectangle {
                     anchors.right: parent.right
                     width: 60
                     text: qsTr("Verify") + translationManager.emptyString
-                    shadowReleasedColor: "#FF4304"
-                    shadowPressedColor: "#B32D00"
-                    releasedColor: "#FF6C3C"
-                    pressedColor: "#FF4304"
+                    shadowReleasedColor: "#FFB300"
+                    shadowPressedColor: "#B37E00"
+                    releasedColor: "#FCB819"
+                    pressedColor: "#FFB300"
                     enabled: true
                     onClicked: {
                       var verified = appWindow.currentWallet.verifySignedMessage(verifyMessageLine.text, verifyAddressLine.text, verifySignatureLine.text, false)
@@ -391,10 +391,10 @@ Rectangle {
                     anchors.rightMargin: 17
                     width: 60
                     text: qsTr("Select") + translationManager.emptyString
-                    shadowReleasedColor: "#FF4304"
-                    shadowPressedColor: "#B32D00"
-                    releasedColor: "#FF6C3C"
-                    pressedColor: "#FF4304"
+                    shadowReleasedColor: "#FFB300"
+                    shadowPressedColor: "#B37E00"
+                    releasedColor: "#FCB819"
+                    pressedColor: "#FFB300"
                     enabled: true
                     onClicked: {
                       verifyFileDialog.open()
@@ -424,10 +424,10 @@ Rectangle {
                     anchors.right: parent.right
                     width: 60
                     text: qsTr("Verify") + translationManager.emptyString
-                    shadowReleasedColor: "#FF4304"
-                    shadowPressedColor: "#B32D00"
-                    releasedColor: "#FF6C3C"
-                    pressedColor: "#FF4304"
+                    shadowReleasedColor: "#FFB300"
+                    shadowPressedColor: "#B37E00"
+                    releasedColor: "#FCB819"
+                    pressedColor: "#FFB300"
                     enabled: true
                     onClicked: {
                       var verified = appWindow.currentWallet.verifySignedMessage(verifyFileLine.text, verifyAddressLine.text, verifySignatureLine.text, true)
@@ -441,7 +441,7 @@ Rectangle {
                 fontSize: 14
                 width: mainLayout.labelWidth
                 textFormat: Text.RichText
-                text: qsTr("<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>\
+                text: qsTr("<style type='text/css'>a {text-decoration: none; color: #FCB819; font-size: 14px;}</style>\
                             Signing address <font size='2'>  ( Paste in  or select from </font> <a href='#'>Address book</a><font size='2'> )</font>")
                       + translationManager.emptyString
 

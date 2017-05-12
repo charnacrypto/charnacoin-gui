@@ -163,7 +163,7 @@ Item {
             wrapMode: Text.Wrap
             text: qsTr("For every transaction, a small transaction fee is charged. This option lets you add an additional amount, " +
                        "as a percentage of that fee, to your transaction to support Charnacoin development. For instance, a 50% " +
-                       "autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Charnacoin development.")
+                       "autodonation take a transaction fee of 0.005 NAC and add a 0.0025 NAC to support Charnacoin development.")
                     + translationManager.emptyString
         }
         Column {
