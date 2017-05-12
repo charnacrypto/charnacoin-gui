@@ -2005,8 +2005,8 @@ Veuillez mettre à jour ou vous connecter à un autre démon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="350"/>
-        <source>USE MONERO</source>
-        <translation>UTILISER MONERO</translation>
+        <source>USE CHARNACOIN</source>
+        <translation>UTILISER CHARNACOIN</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="367"/>

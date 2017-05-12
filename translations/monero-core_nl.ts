@@ -1954,8 +1954,8 @@ Graag upgraden of verbinden met een andere node</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="350"/>
-        <source>USE MONERO</source>
-        <translation>GEBRUIK MONERO</translation>
+        <source>USE CHARNACOIN</source>
+        <translation>GEBRUIK CHARNACOIN</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="367"/>

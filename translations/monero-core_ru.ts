@@ -1660,7 +1660,7 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="350"/>
-        <source>USE MONERO</source>
+        <source>USE CHARNACOIN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

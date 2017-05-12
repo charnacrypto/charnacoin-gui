@@ -1911,8 +1911,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="350"/>
-        <source>USE MONERO</source>
-        <translation>使用 MONERO</translation>
+        <source>USE CHARNACOIN</source>
+        <translation>使用 CHARNACOIN</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="367"/>

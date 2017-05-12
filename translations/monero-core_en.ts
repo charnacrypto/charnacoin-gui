@@ -637,7 +637,7 @@
     <name>WizardMain</name>
     <message>
         <location filename="../wizard/WizardMain.qml" line="308"/>
-        <source>USE MONERO</source>
+        <source>USE CHARNACOIN</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

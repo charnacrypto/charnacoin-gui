@@ -1896,8 +1896,8 @@ Bonvolu plibonigi aŭ konekti al alia demono</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="350"/>
-        <source>USE MONERO</source>
-        <translation>UZU MONERON</translation>
+        <source>USE CHARNACOIN</source>
+        <translation>UZU CHARNACOINN</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="367"/>
