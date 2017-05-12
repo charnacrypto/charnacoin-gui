@@ -59,8 +59,8 @@ ColumnLayout {
 
     QtObject {
         id: d
-        readonly property string daemonAddressTestnet : "localhost:38081"
-        readonly property string daemonAddressMainnet : "localhost:18081"
+        readonly property string daemonAddressTestnet : "localhost:28091"
+        readonly property string daemonAddressMainnet : "localhost:18091"
     }
 
     Behavior on opacity {
