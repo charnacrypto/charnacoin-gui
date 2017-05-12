@@ -989,7 +989,7 @@ ApplicationWindow {
                 PropertyChanges { target: frameArea; blocked: false }
                 PropertyChanges { target: titleBar; visible: true }
                 PropertyChanges { target: titleBar; y: 0 }
-                PropertyChanges { target: titleBar; title: qsTr("Monero") + translationManager.emptyString }
+                PropertyChanges { target: titleBar; title: qsTr("Charnacoin") + translationManager.emptyString }
             }
         ]
 

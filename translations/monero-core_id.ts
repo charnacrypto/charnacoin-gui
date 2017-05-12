@@ -148,8 +148,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="84"/>
-        <source>Starting Monero daemon in %1 seconds</source>
-        <translation>Jurik Monero akan mulai dalam %1 detik</translation>
+        <source>Starting Charnacoin daemon in %1 seconds</source>
+        <translation>Jurik Charnacoin akan mulai dalam %1 detik</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="106"/>
@@ -527,29 +527,29 @@
         <translation>(Hanya untuk jurik lokal)</translation>
     </message>
     <message>
-        <source>Mining helps the Monero network build resilience.&lt;br&gt;</source>
-        <translation type="vanished">Pertambangan menjaminkan sekuritas jaringan Monero.&lt;br&gt;</translation>
+        <source>Mining helps the Charnacoin network build resilience.&lt;br&gt;</source>
+        <translation type="vanished">Pertambangan menjaminkan sekuritas jaringan Charnacoin.&lt;br&gt;</translation>
     </message>
     <message>
         <source>The more mining is done, the harder it is to attack the network.&lt;br&gt;</source>
         <translation type="vanished">Makin banyak pertambangan, makin jaringan lebih mempertahankan</translation>
     </message>
     <message>
-        <source>Mining also gives you a small chance to earn some Monero.&lt;br&gt;</source>
-        <translation type="vanished">Pertambangan juga memberikan Anda sebuah kesempatan supaya memenangkan sedikit Monero.&lt;br&gt;</translation>
+        <source>Mining also gives you a small chance to earn some Charnacoin.&lt;br&gt;</source>
+        <translation type="vanished">Pertambangan juga memberikan Anda sebuah kesempatan supaya memenangkan sedikit Charnacoin.&lt;br&gt;</translation>
     </message>
     <message>
-        <source>Your computer will search for Monero block solutions.&lt;br&gt;</source>
-        <translation type="vanished">Komputer Anda akan menebak untuk kunci blok Monero.&lt;br&gt;</translation>
+        <source>Your computer will search for Charnacoin block solutions.&lt;br&gt;</source>
+        <translation type="vanished">Komputer Anda akan menebak untuk kunci blok Charnacoin.&lt;br&gt;</translation>
     </message>
     <message>
         <source>If you find a block, you will get the associated reward.&lt;br&gt;</source>
-        <translation type="vanished">Jika Anda menemukan kunci yang pas, Anda akan menang sedikit Monero</translation>
+        <translation type="vanished">Jika Anda menemukan kunci yang pas, Anda akan menang sedikit Charnacoin</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Pertambangan dengan komputer Anda menolong mempertahankan jaringan Monero. Makin banyak orang-orang pertambangan, makin sulit menyerangkan jaringan, dan setiap komputer membantu, memang yang kecil.&lt;br&gt; &lt;br&gt;Pertambangan juga memberikan Anda sebuah kesempatan supaya memenangkan sedikit Monero. Komputer Anda akan menebak untuk kunci blok Monero. Jika Anda menemukan kunci yang pas, Anda akan menang sedikit Monero. Semoga sukses!</translation>
+        <source>Mining with your computer helps strengthen the Charnacoin network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Charnacoin. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Pertambangan dengan komputer Anda menolong mempertahankan jaringan Charnacoin. Makin banyak orang-orang pertambangan, makin sulit menyerangkan jaringan, dan setiap komputer membantu, memang yang kecil.&lt;br&gt; &lt;br&gt;Pertambangan juga memberikan Anda sebuah kesempatan supaya memenangkan sedikit Charnacoin. Komputer Anda akan menebak untuk kunci blok Charnacoin. Jika Anda menemukan kunci yang pas, Anda akan menang sedikit Charnacoin. Semoga sukses!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -1024,8 +1024,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="395"/>
-        <source>Embedded Monero version: </source>
-        <translation>Versi Monero termasuk: </translation>
+        <source>Embedded Charnacoin version: </source>
+        <translation>Versi Charnacoin termasuk: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="405"/>
@@ -1703,13 +1703,13 @@ Please upgrade or connect to another daemon</source>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation>Hampir selesai - marilah kita pilih preferensi dalam Monero</translation>
+        <source>We’re almost there - let’s just configure some Charnacoin preferences</source>
+        <translation>Hampir selesai - marilah kita pilih preferensi dalam Charnacoin</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation>Mulailah rantaiblok Monero?</translation>
+        <source>Kickstart the Charnacoin blockchain?</source>
+        <translation>Mulailah rantaiblok Charnacoin?</translation>
     </message>
     <message>
         <source>It is very important to write it down as this is the only backup you will need for your wallet. You will be asked to confirm the seed in the next screen to ensure it has copied down correctly.</source>
@@ -1727,8 +1727,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Cara penghematan bisa mengurangi ruang hard disk untuk Monero, tetapi tidak mengurangi jumlah data. Menyimpan rantaiblok lengkap bermanfaat untuk jaringan. Kalau Anda punya hard disk yang kecil, pilihan ini sesuai untuk Anda.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Charnacoin instance. However, storing the full blockchain is beneficial to the security of the Charnacoin network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Cara penghematan bisa mengurangi ruang hard disk untuk Charnacoin, tetapi tidak mengurangi jumlah data. Menyimpan rantaiblok lengkap bermanfaat untuk jaringan. Kalau Anda punya hard disk yang kecil, pilihan ini sesuai untuk Anda.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1737,8 +1737,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Pertambangan menjaminkan sekuritas jaringan Monero, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Monero untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
+        <source>Mining secures the Charnacoin network, and also pays a small reward for the work done. This option will let Charnacoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Pertambangan menjaminkan sekuritas jaringan Charnacoin, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Charnacoin untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
     </message>
 </context>
 <context>
@@ -1769,8 +1769,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Monero development is solely supported by donations</source>
-        <translation>Pembangunan Monero cuma didukung oleh sumbangan</translation>
+        <source>Charnacoin development is solely supported by donations</source>
+        <translation>Pembangunan Charnacoin cuma didukung oleh sumbangan</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1784,8 +1784,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Dengan setiap transaksi, biaya kecil dibebankan. Pilihan ini membolehkan Anda menaiki persen biaya itu kepada yang membangunkan Monero. Contoh, pilihan 50% dengan biaya 0.005XMR akan tambah lagi 0.0025XMR kepada yang membangunkan Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Charnacoin development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Charnacoin development.</source>
+        <translation>Dengan setiap transaksi, biaya kecil dibebankan. Pilihan ini membolehkan Anda menaiki persen biaya itu kepada yang membangunkan Charnacoin. Contoh, pilihan 50% dengan biaya 0.005XMR akan tambah lagi 0.0025XMR kepada yang membangunkan Charnacoin.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1794,8 +1794,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Pertambangan menjaminkan sekuritas jaringan Monero, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Monero untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
+        <source>Mining secures the Charnacoin network, and also pays a small reward for the work done. This option will let Charnacoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Pertambangan menjaminkan sekuritas jaringan Charnacoin, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Charnacoin untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
     </message>
 </context>
 <context>
@@ -1873,8 +1873,8 @@ Please upgrade or connect to another daemon</source>
         <translation>Semua siap!</translation>
     </message>
     <message>
-        <source>An overview of your Monero configuration is below:</source>
-        <translation type="vanished">Gambaran konfigurasi Monero Anda diberikan di bawah ini:</translation>
+        <source>An overview of your Charnacoin configuration is below:</source>
+        <translation type="vanished">Gambaran konfigurasi Charnacoin Anda diberikan di bawah ini:</translation>
     </message>
     <message>
         <source>You’re all setup!</source>
@@ -2002,8 +2002,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Monero!</source>
-        <translation>Selamat datang di dunia Monero!</translation>
+        <source>Welcome to Charnacoin!</source>
+        <translation>Selamat datang di dunia Charnacoin!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -2133,8 +2133,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Monero!</source>
-        <translation>Selamat datang di dunia Monero!</translation>
+        <source>Welcome to Charnacoin!</source>
+        <translation>Selamat datang di dunia Charnacoin!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2407,8 +2407,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="980"/>
-        <source>Monero</source>
-        <translation>Monero</translation>
+        <source>Charnacoin</source>
+        <translation>Charnacoin</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1021"/>

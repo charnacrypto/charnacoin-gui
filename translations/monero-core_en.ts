@@ -434,7 +434,7 @@
     <name>TitleBar</name>
     <message>
         <location filename="../components/TitleBar.qml" line="38"/>
-        <source>Monero  -  Donations</source>
+        <source>Charnacoin  -  Donations</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -505,12 +505,12 @@
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
+        <source>We’re almost there - let’s just configure some Charnacoin preferences</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Monero blockchain?</source>
+        <source>Kickstart the Charnacoin blockchain?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -525,7 +525,7 @@
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="145"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Charnacoin instance. However, storing the full blockchain is beneficial to the security of the Charnacoin network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -535,7 +535,7 @@
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="176"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Charnacoin network, and also pays a small reward for the work done. This option will let Charnacoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -556,7 +556,7 @@
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Monero development is solely supported by donations</source>
+        <source>Charnacoin development is solely supported by donations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -571,7 +571,7 @@
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Charnacoin development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Charnacoin development.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -581,7 +581,7 @@
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Charnacoin network, and also pays a small reward for the work done. This option will let Charnacoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -624,7 +624,7 @@
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="52"/>
-        <source>An overview of your Monero configuration is below:</source>
+        <source>An overview of your Charnacoin configuration is below:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -676,7 +676,7 @@
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="62"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to Charnacoin!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -827,7 +827,7 @@ Fee: </source>
     </message>
     <message>
         <location filename="../main.qml" line="350"/>
-        <source>Monero  -  Donations</source>
+        <source>Charnacoin  -  Donations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

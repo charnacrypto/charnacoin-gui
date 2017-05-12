@@ -172,7 +172,7 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="84"/>
-        <source>Starting Monero daemon in %1 seconds</source>
+        <source>Starting Charnacoin daemon in %1 seconds</source>
         <translation>デーモンを開始するまであと%1秒</translation>
     </message>
     <message>
@@ -567,7 +567,7 @@
         <translation>(ローカル上のデーモンでのみ可能)</translation>
     </message>
     <message>
-        <source>Mining helps the Monero network build resilience.&lt;br&gt;</source>
+        <source>Mining helps the Charnacoin network build resilience.&lt;br&gt;</source>
         <translation type="vanished">マイニングによってモネロのネットワークを強固にすることができます。&lt;br&gt;</translation>
     </message>
     <message>
@@ -575,11 +575,11 @@
         <translation type="vanished">マイニングをする人が増えるほど、ネットワークへの攻撃が難しくなります。&lt;br&gt;</translation>
     </message>
     <message>
-        <source>Mining also gives you a small chance to earn some Monero.&lt;br&gt;</source>
+        <source>Mining also gives you a small chance to earn some Charnacoin.&lt;br&gt;</source>
         <translation type="vanished">低確率ではありますが、マイニングによってモネロを獲得することもできます。&lt;br&gt;</translation>
     </message>
     <message>
-        <source>Your computer will search for Monero block solutions.&lt;br&gt;</source>
+        <source>Your computer will search for Charnacoin block solutions.&lt;br&gt;</source>
         <translation type="vanished">あなたのコンピュータは、モネロのブロックに関する計算問題を解く処理を行います。&lt;br&gt;</translation>
     </message>
     <message>
@@ -588,7 +588,7 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the Charnacoin network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Charnacoin. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation>あなたのコンピュータでマイニングを行うことで、モネロのネットワークをより強固にすることができます。マイニングをする人が増えるほど、ネットワークへの攻撃が難しくなります。一人一人の協力が大切です。&lt;br&gt; &lt;br&gt;マイニングをすると、低確率ですがモネロを獲得できる可能性があります。あなたのコンピュータは、ある計算問題の解となるブロックとそのハッシュ値を計算します。正解のブロックが見つかると、あなたはそれに伴う報酬を得ます。グッドラック!</translation>
     </message>
     <message>
@@ -1078,7 +1078,7 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="395"/>
-        <source>Embedded Monero version: </source>
+        <source>Embedded Charnacoin version: </source>
         <translation>埋め込まれたモネロのバージョン</translation>
     </message>
     <message>
@@ -1333,7 +1333,7 @@
 <context>
     <name>TitleBar</name>
     <message>
-        <source>Monero  -  Donations</source>
+        <source>Charnacoin  -  Donations</source>
         <translation type="vanished">モネロ  -  寄付</translation>
     </message>
 </context>
@@ -1714,12 +1714,12 @@ Please upgrade or connect to another daemon</source>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
+        <source>We’re almost there - let’s just configure some Charnacoin preferences</source>
         <translation>あと少しで完了です - いくつかの項目を設定してください</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Monero blockchain?</source>
+        <source>Kickstart the Charnacoin blockchain?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1738,7 +1738,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Charnacoin instance. However, storing the full blockchain is beneficial to the security of the Charnacoin network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
         <translation>ディスク容量節約モードを有効にすると、使用するディスク容量はずっと小さくなりますが、通信帯域の使用量は通常モードと変わりません。ただし、モネロのネットワークの安全性を高める意味で、完全なブロックチェーンの全体を保存することが推奨されています。もしあなたのコンピュータのディスク容量が小さい場合は、このオプションを使用してください。</translation>
     </message>
     <message>
@@ -1748,7 +1748,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Charnacoin network, and also pays a small reward for the work done. This option will let Charnacoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation>モネロの採掘をすることでネットワークの安全性が高まり、また提供した計算量の対価として低い確率ですが報酬が得られます。このオプションは、あなたのコンピュータが電源に接続されていてなおかつアイドル状態の場合に、自動的にモネロの採掘を行うことを許可します。あなたが作業を再開すると、採掘は停止されます。</translation>
     </message>
 </context>
@@ -1780,7 +1780,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Monero development is solely supported by donations</source>
+        <source>Charnacoin development is solely supported by donations</source>
         <translation>モネロの開発は寄付のみによって支えられています</translation>
     </message>
     <message>
@@ -1795,7 +1795,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Charnacoin development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Charnacoin development.</source>
         <translation>取引には少額の手数料がかかります。このオプションはその手数料に加えて、手数料の何パーセントかをモネロの開発チームへの寄付として支払うことを許可します。例えば自動寄付の割合が50%で、取引の手数料が0.005 XMRであった場合、0.0025 XMRが開発チームへの寄付として取引に上乗せされます。</translation>
     </message>
     <message>
@@ -1805,7 +1805,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Charnacoin network, and also pays a small reward for the work done. This option will let Charnacoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation>モネロの採掘をすることでネットワークの安全性が高まり、また提供した計算量の対価として低い確率ですが報酬が得られます。このオプションは、あなたのコンピュータが電源に接続されていてなおかつアイドル状態の場合に、自動的にモネロの採掘を行うことを許可します。あなたが作業を再開すると、採掘は停止されます。</translation>
     </message>
 </context>
@@ -1852,7 +1852,7 @@ Please upgrade or connect to another daemon</source>
         <translation type="obsolete">復元するブロックの高さ: </translation>
     </message>
     <message>
-        <source>An overview of your Monero configuration is below:</source>
+        <source>An overview of your Charnacoin configuration is below:</source>
         <translation type="vanished">モネロの設定情報は以下の通りです:</translation>
     </message>
     <message>
@@ -2050,7 +2050,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to Charnacoin!</source>
         <translation>モネロへようこそ!</translation>
     </message>
     <message>
@@ -2180,7 +2180,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to Charnacoin!</source>
         <translation>モネロへようこそ!</translation>
     </message>
     <message>
@@ -2441,7 +2441,7 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="980"/>
-        <source>Monero</source>
+        <source>Charnacoin</source>
         <translation>モネロ</translation>
     </message>
     <message>
@@ -2454,7 +2454,7 @@ Description: </source>
         <translation>プログラムセットアップウィザード</translation>
     </message>
     <message>
-        <source>Monero  -  Donations</source>
+        <source>Charnacoin  -  Donations</source>
         <translation type="vanished">モネロ  -  寄付</translation>
     </message>
     <message>

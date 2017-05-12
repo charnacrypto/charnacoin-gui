@@ -90,7 +90,7 @@ Item {
         wrapMode: Text.Wrap
         //renderType: Text.NativeRendering
         color: "#3F3F3F"
-        text: qsTr("Monero development is solely supported by donations") + translationManager.emptyString
+        text: qsTr("Charnacoin development is solely supported by donations") + translationManager.emptyString
     }
 
     Column {
@@ -162,8 +162,8 @@ Item {
             color: "#4A4646"
             wrapMode: Text.Wrap
             text: qsTr("For every transaction, a small transaction fee is charged. This option lets you add an additional amount, " +
-                       "as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% " +
-                       "autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.")
+                       "as a percentage of that fee, to your transaction to support Charnacoin development. For instance, a 50% " +
+                       "autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Charnacoin development.")
                     + translationManager.emptyString
         }
         Column {
@@ -191,8 +191,8 @@ Item {
                 font.pixelSize: 15
                 color: "#4A4646"
                 wrapMode: Text.Wrap
-                text: qsTr("Mining secures the Monero network, and also pays a small reward for the work done. This option " +
-                           "will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.")
+                text: qsTr("Mining secures the Charnacoin network, and also pays a small reward for the work done. This option " +
+                           "will let Charnacoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.")
                       + translationManager.emptyString
             }
         }

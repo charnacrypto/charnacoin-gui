@@ -160,8 +160,8 @@
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="84"/>
-        <source>Starting Monero daemon in %1 seconds</source>
-        <translation>Monero node wordt gestart in %1 seconde(n)</translation>
+        <source>Starting Charnacoin daemon in %1 seconds</source>
+        <translation>Charnacoin node wordt gestart in %1 seconde(n)</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="106"/>
@@ -540,33 +540,33 @@
         <translation>(alleen beschikbaar voor lokale nodes)</translation>
     </message>
     <message>
-        <source>Mining helps the Monero network build resilience.&lt;br&gt;</source>
-        <translation type="vanished">Minen help het Monero-netwerk weerstand op te bouwen.&lt;br&gt;</translation>
+        <source>Mining helps the Charnacoin network build resilience.&lt;br&gt;</source>
+        <translation type="vanished">Minen help het Charnacoin-netwerk weerstand op te bouwen.&lt;br&gt;</translation>
     </message>
     <message>
         <source>The more mining is done, the harder it is to attack the network.&lt;br&gt;</source>
-        <translation type="vanished">Des te meer er gemined wordt, des te moeilijker het is om het Monero-netwerk aan te vallen.&lt;br&gt;</translation>
+        <translation type="vanished">Des te meer er gemined wordt, des te moeilijker het is om het Charnacoin-netwerk aan te vallen.&lt;br&gt;</translation>
     </message>
     <message>
-        <source>Mining also gives you a small chance to earn some Monero.&lt;br&gt;</source>
-        <translation type="vanished">Minen geeft je een kleine kans om Monero te verdienen.&lt;br&gt;</translation>
+        <source>Mining also gives you a small chance to earn some Charnacoin.&lt;br&gt;</source>
+        <translation type="vanished">Minen geeft je een kleine kans om Charnacoin te verdienen.&lt;br&gt;</translation>
     </message>
     <message>
-        <source>Your computer will search for Monero block solutions.&lt;br&gt;</source>
-        <translation type="vanished">Uw computer zal zoeken naar Monero-block oplossingen.&lt;br&gt;</translation>
+        <source>Your computer will search for Charnacoin block solutions.&lt;br&gt;</source>
+        <translation type="vanished">Uw computer zal zoeken naar Charnacoin-block oplossingen.&lt;br&gt;</translation>
     </message>
     <message>
         <source>If you find a block, you will get the associated reward.&lt;br&gt;</source>
         <translation type="vanished">Als u een blok vindt, zal u de bijbehorende beloning ontvangen.&lt;br&gt;</translation>
     </message>
     <message>
-        <source>Mining helps the Monero network build resilience. The more mining is done, the harder it is to attack the network. Mining also gives you a small chance to earn some Monero. Your computer will search for Monero block solutions. If you find a block, you will get the associated reward.</source>
-        <translation type="vanished">Minen help het Monero-netwerk weerstand op te bouwen. Des te meer er gemined wordt, des te moeilijker het is om het Monero-netwerk aan te vallen. Minen geeft je een kleine kans om Monero te verdienen. Uw computer zal zoeken naar Monero-block oplossingen. Als u een blok vindt, zal u de bijbehorende beloning ontvangen.</translation>
+        <source>Mining helps the Charnacoin network build resilience. The more mining is done, the harder it is to attack the network. Mining also gives you a small chance to earn some Charnacoin. Your computer will search for Charnacoin block solutions. If you find a block, you will get the associated reward.</source>
+        <translation type="vanished">Minen help het Charnacoin-netwerk weerstand op te bouwen. Des te meer er gemined wordt, des te moeilijker het is om het Charnacoin-netwerk aan te vallen. Minen geeft je een kleine kans om Charnacoin te verdienen. Uw computer zal zoeken naar Charnacoin-block oplossingen. Als u een blok vindt, zal u de bijbehorende beloning ontvangen.</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minen met uw computer helpt het Monero-netwerk sterker te worden. Des te meer individuen er minen, des te moeilijker het is om het Monero-netwerk aan te vallen. Ieder beetje helpt dus.&lt;br&gt; &lt;br&gt; Minen geeft je ook een kleine kans om Monero te verdienen. Uw computer zal namelijk specifieke tekenreeksen berekenen en zodoende op zoek gaan naar Monero-block oplossingen. Als u een blok vindt, zal u de bijbehorende beloning ontvangen. Veel success!</translation>
+        <source>Mining with your computer helps strengthen the Charnacoin network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Charnacoin. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Minen met uw computer helpt het Charnacoin-netwerk sterker te worden. Des te meer individuen er minen, des te moeilijker het is om het Charnacoin-netwerk aan te vallen. Ieder beetje helpt dus.&lt;br&gt; &lt;br&gt; Minen geeft je ook een kleine kans om Charnacoin te verdienen. Uw computer zal namelijk specifieke tekenreeksen berekenen en zodoende op zoek gaan naar Charnacoin-block oplossingen. Als u een blok vindt, zal u de bijbehorende beloning ontvangen. Veel success!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -1082,8 +1082,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="395"/>
-        <source>Embedded Monero version: </source>
-        <translation>Ingebouwde Monero versie:</translation>
+        <source>Embedded Charnacoin version: </source>
+        <translation>Ingebouwde Charnacoin versie:</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="416"/>
@@ -1762,13 +1762,13 @@ Graag upgraden of verbinden met een andere node</translation>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation>Bijna klaar - laten we enkele Monero voorkeuren instellen</translation>
+        <source>We’re almost there - let’s just configure some Charnacoin preferences</source>
+        <translation>Bijna klaar - laten we enkele Charnacoin voorkeuren instellen</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation>De Monero blockchain starten?</translation>
+        <source>Kickstart the Charnacoin blockchain?</source>
+        <translation>De Charnacoin blockchain starten?</translation>
     </message>
     <message>
         <source>It is very important to write it down as this is the only backup you will need for your wallet. You will be asked to confirm the seed in the next screen to ensure it has copied down correctly.</source>
@@ -1786,8 +1786,8 @@ Graag upgraden of verbinden met een andere node</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>De modus voor schijfbehoud gebruikt substantieel minder schijfruimte, maar dezelfde hoeveelheid bandbreedte als een gewone Monero-installatie. Echter, het volledig opslaan van de Monero-blockchain is bevorderlijk voor de beveiliging van het Monero netwerk. Als u een apparaat gebruikt met beperkte schuifruimte is deze optie geschikt.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Charnacoin instance. However, storing the full blockchain is beneficial to the security of the Charnacoin network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>De modus voor schijfbehoud gebruikt substantieel minder schijfruimte, maar dezelfde hoeveelheid bandbreedte als een gewone Charnacoin-installatie. Echter, het volledig opslaan van de Charnacoin-blockchain is bevorderlijk voor de beveiliging van het Charnacoin netwerk. Als u een apparaat gebruikt met beperkte schuifruimte is deze optie geschikt.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1796,8 +1796,8 @@ Graag upgraden of verbinden met een andere node</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minen beveiligt het Monero-netwerk en u ontvangt ook een kleine beloning voor het verrichte werk. Deze optie laat Monero minen als uw computer op netstroom is aangesloten en niets aan het doen is. Het stopt met minen als u weer gebruikt maakt van uw computer.</translation>
+        <source>Mining secures the Charnacoin network, and also pays a small reward for the work done. This option will let Charnacoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minen beveiligt het Charnacoin-netwerk en u ontvangt ook een kleine beloning voor het verrichte werk. Deze optie laat Charnacoin minen als uw computer op netstroom is aangesloten en niets aan het doen is. Het stopt met minen als u weer gebruikt maakt van uw computer.</translation>
     </message>
 </context>
 <context>
@@ -1828,8 +1828,8 @@ Graag upgraden of verbinden met een andere node</translation>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Monero development is solely supported by donations</source>
-        <translation>De ontwikkeling van Monero wordt uitsluitend ondersteund door donaties</translation>
+        <source>Charnacoin development is solely supported by donations</source>
+        <translation>De ontwikkeling van Charnacoin wordt uitsluitend ondersteund door donaties</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1843,8 +1843,8 @@ Graag upgraden of verbinden met een andere node</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Voor elke transactie betaalt u een kleine vergoeding. Met deze optie voegt u een extra bedrag (als percentage van die vergoeding) aan uw transactie toe om de ontwikkeling van Monero te ondersteunen. Bijvoorbeeld, een automatische donatie van 50% neemt een transactievergoeding van 0.005 XMR en voegt 0.0025 XMR toe om de ontwikkeling van Monero te ondersteunen.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Charnacoin development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Charnacoin development.</source>
+        <translation>Voor elke transactie betaalt u een kleine vergoeding. Met deze optie voegt u een extra bedrag (als percentage van die vergoeding) aan uw transactie toe om de ontwikkeling van Charnacoin te ondersteunen. Bijvoorbeeld, een automatische donatie van 50% neemt een transactievergoeding van 0.005 XMR en voegt 0.0025 XMR toe om de ontwikkeling van Charnacoin te ondersteunen.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1853,8 +1853,8 @@ Graag upgraden of verbinden met een andere node</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minen beveiligt het Monero-netwerk en u ontvangt ook een kleine beloning voor het verrichte werk. Deze optie laat Monero minen als uw computer op netstroom is aangesloten en niets aan het doen is. Het stopt met minen als u weer gebruikt maakt van uw computer.</translation>
+        <source>Mining secures the Charnacoin network, and also pays a small reward for the work done. This option will let Charnacoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minen beveiligt het Charnacoin-netwerk en u ontvangt ook een kleine beloning voor het verrichte werk. Deze optie laat Charnacoin minen als uw computer op netstroom is aangesloten en niets aan het doen is. Het stopt met minen als u weer gebruikt maakt van uw computer.</translation>
     </message>
 </context>
 <context>
@@ -1927,8 +1927,8 @@ Graag upgraden of verbinden met een andere node</translation>
         <translation>Vergeet u hersteltekst niet op te schrijven. U kunt u hersteltekst bekijken en instellingen aanpassen op de instellingen pagina.</translation>
     </message>
     <message>
-        <source>An overview of your Monero configuration is below:</source>
-        <translation type="vanished">Een overzicht van uw Monero-configuratie staat hieronder:</translation>
+        <source>An overview of your Charnacoin configuration is below:</source>
+        <translation type="vanished">Een overzicht van uw Charnacoin-configuratie staat hieronder:</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="128"/>
@@ -2070,8 +2070,8 @@ Graag upgraden of verbinden met een andere node</translation>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Monero!</source>
-        <translation>Welkom bij Monero!</translation>
+        <source>Welcome to Charnacoin!</source>
+        <translation>Welkom bij Charnacoin!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -2201,8 +2201,8 @@ Graag upgraden of verbinden met een andere node</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Monero!</source>
-        <translation>Welkom bij Monero!</translation>
+        <source>Welcome to Charnacoin!</source>
+        <translation>Welkom bij Charnacoin!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2449,8 +2449,8 @@ Ringgrootte:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="985"/>
-        <source>Monero</source>
-        <translation>Monero</translation>
+        <source>Charnacoin</source>
+        <translation>Charnacoin</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1026"/>

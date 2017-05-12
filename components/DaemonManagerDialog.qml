@@ -81,7 +81,7 @@ Window {
             }
 
             Text {
-                text: qsTr("Starting Monero daemon in %1 seconds").arg(countDown);
+                text: qsTr("Starting Charnacoin daemon in %1 seconds").arg(countDown);
                 font.pixelSize: 18
                 Layout.alignment: Qt.AlignHCenter
                 Layout.fillWidth: true
