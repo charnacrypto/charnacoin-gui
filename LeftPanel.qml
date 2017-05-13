@@ -147,7 +147,7 @@ Rectangle {
                 id: balanceText
                 anchors.verticalCenter: parent.verticalCenter
                 font.family: "Arial"
-                color: "#000000"
+                color: "#0F0101"
                 text: "N/A"
                 // dynamically adjust text size
                 font.pixelSize: {
@@ -180,7 +180,7 @@ Rectangle {
             anchors.left: parent.left
             anchors.leftMargin: 50
             font.family: "Arial"
-            color: "#000000"
+            color: "#0F0101"
             text: "N/A"
             // dynamically adjust text size
             font.pixelSize: {
@@ -217,7 +217,7 @@ Rectangle {
         anchors.bottom: parent.bottom
         anchors.top: column1.bottom
         anchors.topMargin: 25
-        color: "#1C1C1C"
+        color: "#1D0F0F"
 
         Column {
             id: menuColumn
@@ -250,7 +250,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
-                color: dashboardButton.checked || transferButton.checked ? "#1C1C1C" : "#505050"
+                color: dashboardButton.checked || transferButton.checked ? "#1D0F0F" : "#505050"
                 height: 1
             }
             */
@@ -396,7 +396,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
-                color: miningButton.checked || settingsButton.checked ? "#1C1C1C" : "#505050"
+                color: miningButton.checked || settingsButton.checked ? "#1D0F0F" : "#505050"
                 height: 1
             }
             // ------------- TxKey tab ---------------

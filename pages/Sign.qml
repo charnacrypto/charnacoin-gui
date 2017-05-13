@@ -102,7 +102,7 @@ Rectangle {
 
         Rectangle {
             anchors.fill: signBox
-            color: "#00000000"
+            color: "#0F010100"
             border.width: 2
             border.color: "#CCCCCC"
             anchors.margins: -15
@@ -288,7 +288,7 @@ Rectangle {
 
         Rectangle {
             anchors.fill: verifyBox
-            color: "#00000000"
+            color: "#0F010100"
             border.width: 2
             border.color: "#CCCCCC"
             anchors.margins: -15

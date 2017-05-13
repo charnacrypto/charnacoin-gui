@@ -185,7 +185,7 @@ std::string qrcodegen::QrCode::toSvgString(int border) const {
 			}
 		}
 	}
-	sb << "\" fill=\"#000000\" stroke-width=\"0\"/>\n";
+	sb << "\" fill=\"#0F0101\" stroke-width=\"0\"/>\n";
 	sb << "</svg>\n";
 	return sb.str();
 }

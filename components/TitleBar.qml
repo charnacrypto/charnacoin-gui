@@ -31,7 +31,7 @@ import QtQuick.Window 2.0
 
 Rectangle {
     id: titleBar
-    color: "#000000"
+    color: "#0F0101"
     property int mouseX: 0
     property bool containsMouse: false
     property alias basicButtonVisible: goToBasicVersionButton.visible
@@ -58,7 +58,7 @@ Rectangle {
         property bool checked: false
         anchors.top: parent.top
         anchors.left: parent.left
-        color:  basicMouseArea.containsMouse || checked ? "#FFE00A" : "#000000"
+        color:  basicMouseArea.containsMouse || checked ? "#FFE00A" : "#0F0101"
         height: 30
         width: height
 
@@ -92,7 +92,7 @@ Rectangle {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             width: height
-            color: containsMouse ? "#6B0072" : "#000000"
+            color: containsMouse ? "#6B0072" : "#0F0101"
 
             Image {
                 anchors.centerIn: parent
@@ -113,7 +113,7 @@ Rectangle {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             width: height
-            color: containsMouse ? "#3665B3" : "#000000"
+            color: containsMouse ? "#3665B3" : "#0F0101"
 
             Image {
                 anchors.centerIn: parent
@@ -135,7 +135,7 @@ Rectangle {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             width: height
-            color: containsMouse ? "#FCB819" : "#000000"
+            color: containsMouse ? "#FCB819" : "#0F0101"
 
             Image {
                 anchors.centerIn: parent
@@ -159,7 +159,7 @@ Rectangle {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             width: height
-            color: containsMouse ? "#E04343" : "#000000"
+            color: containsMouse ? "#E04343" : "#0F0101"
 
             Image {
                 anchors.centerIn: parent

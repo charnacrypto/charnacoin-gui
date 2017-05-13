@@ -95,7 +95,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             font.family: "Arial"
             font.pixelSize: 15
-            color: "#000000"
+            color: "#0F0101"
             x: row.x + (row.positions[0] !== undefined ? row.positions[0].currentX - 3 : 0) - width
             text: qsTr("Low") + translationManager.emptyString
         }
@@ -104,7 +104,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             font.family: "Arial"
             font.pixelSize: 15
-            color: "#000000"
+            color: "#0F0101"
             x: row.x + (row.positions[4] !== undefined ? row.positions[4].currentX - 3 : 0) - width
             text: qsTr("Medium") + translationManager.emptyString
         }
@@ -113,7 +113,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             font.family: "Arial"
             font.pixelSize: 15
-            color: "#000000"
+            color: "#0F0101"
             x: row.x + (row.positions[13] !== undefined ? row.positions[13].currentX - 3 : 0) - width
             text: qsTr("High") + translationManager.emptyString
         }

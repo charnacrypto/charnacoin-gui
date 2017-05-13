@@ -222,7 +222,7 @@ Rectangle {
                     elide: Text.ElideRight
                     horizontalAlignment: Text.AlignLeft
                     verticalAlignment: Text.AlignBottom
-                    color: "#000000"
+                    color: "#0F0101"
                     text: root.balanceText
                 }
 
@@ -259,7 +259,7 @@ Rectangle {
                     elide: Text.ElideRight
                     horizontalAlignment: Text.AlignLeft
                     verticalAlignment: Text.AlignBottom
-                    color: "#000000"
+                    color: "#0F0101"
                     text: root.unlockedBalanceText
                 }
             }

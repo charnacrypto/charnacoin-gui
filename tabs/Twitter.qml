@@ -140,7 +140,7 @@ Item {
                 elide: Text.ElideRight
                 font.family: "Arial"
                 font.pixelSize: 18
-                color: "#000000"
+                color: "#0F0101"
                 text: model.name
             }
 

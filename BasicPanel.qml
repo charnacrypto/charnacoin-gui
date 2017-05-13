@@ -106,7 +106,7 @@ Rectangle {
                 elide: Text.ElideRight
                 horizontalAlignment: Text.AlignLeft
                 verticalAlignment: Text.AlignBottom
-                color: "#000000"
+                color: "#0F0101"
                 text: qsTr("78.9239845")
             }
 
@@ -142,7 +142,7 @@ Rectangle {
                 elide: Text.ElideRight
                 horizontalAlignment: Text.AlignLeft
                 verticalAlignment: Text.AlignBottom
-                color: "#000000"
+                color: "#0F0101"
                 text: qsTr("2324.9239845")
             }
         }

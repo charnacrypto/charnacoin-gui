@@ -42,7 +42,7 @@ Row {
 
     function getConnectionStatusColor(status) {
         if (status == Wallet.ConnectionStatus_Connected)
-            return "#FF6C3B"
+            return "#FFB13B"
         else
             return "#AAAAAA"
     }

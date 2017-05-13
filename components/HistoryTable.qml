@@ -308,14 +308,14 @@ ListView {
                     Text {
                         font.family: "Arial"
                         font.pixelSize: 18
-                        color: "#000000"
+                        color: "#0F0101"
                         text: date
                     }
 
                     Text {
                         font.family: "Arial"
                         font.pixelSize: 18
-                        color: "#000000"
+                        color: "#0F0101"
                         text: time
                     }
                 }
@@ -339,7 +339,7 @@ ListView {
                 Text {
                     font.family: "Arial"
                     font.pixelSize: 18
-                    color: "#000000"
+                    color: "#0F0101"
                     text: balance
                 }
             }

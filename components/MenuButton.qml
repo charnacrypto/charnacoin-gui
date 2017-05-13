@@ -48,7 +48,7 @@ Rectangle {
         return offset
     }
 
-    color: checked ? "#FFFFFF" : "#1C1C1C"
+    color: checked ? "#FFFFFF" : "#1D0F0F"
     property bool present: !under || under.checked || checked || under.numSelectedChildren > 0
     height: present ? ((appWindow.height >= 800) ? 64 : 52) : 0
 
@@ -90,7 +90,7 @@ Rectangle {
                 width: 12
                 height: width
                 radius: height / 2
-                color: "#1C1C1C"
+                color: "#1D0F0F"
                 visible: !button.checked && !buttonArea.containsMouse
             }
         }
@@ -129,7 +129,7 @@ Rectangle {
         anchors.leftMargin: parent.getOffset() + 50
         font.family: "Arial"
         font.pixelSize: 18
-        color: parent.checked ? "#000000" : "#FFFFFF"
+        color: parent.checked ? "#0F0101" : "#FFFFFF"
     }
 
     MouseArea {
