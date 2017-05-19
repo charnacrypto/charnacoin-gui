@@ -317,8 +317,8 @@ Rectangle {
                 Layout.fillWidth: true
                 validator: DoubleValidator {
                     bottom: 0.0
-                    top: 18446744.073709551615 // @TODO:#CHARNACOIN fix this to own max amount (all occurences)
-                    decimals: 12 // @TODO:#CHARNACOIN fix this to own decimals points (all occurences)
+                    top: 199999999.00000000
+                    decimals: 8
                     notation: DoubleValidator.StandardNotation
                     locale: "C"
                 }
