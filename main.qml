@@ -1310,7 +1310,7 @@ ApplicationWindow {
 
     // @TODO:#CHARNACOIN adapt checking update function
     function checkUpdates() {
-        var update = walletManager.checkUpdates("charnacoin-gui", "gui")
+        var update = walletManager.checkUpdates("charnacoin-gui")
         if (update === "")
             return
         print("Update found: " + update)
