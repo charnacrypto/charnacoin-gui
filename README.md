@@ -35,6 +35,8 @@ Both Charnacoin and Bitcoin donations can be made to charnacoin.com/donate.
 
 The Charnacoin donation address is: `Cjo7trECi42f2Ph7BJtxc5e2fGtmpVkXLYyE5ynhnnf41p4n9oN3zn696muBZX6CBca8q1c46T5H8ZSKhLHtR2MGCrjLyoZ` (viewkey: ` `)
 
+The Monero donation address is: `43Tob1j6gqcNGvM46xx5xiWqskj4DguW3jnHgGZAfD9KXLrcmxM3nQgT3sasEfaNqcWb5qRjsZzaUg2bdne54TaGBsra1CW`
+
 The Bitcoin donation address is: `131BRfZ1rmPApxo2GWiY8GwAodotXy5hCF`
 
 ## License
