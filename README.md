@@ -1,5 +1,7 @@
 # Charnacoin GUI
 
+[![Join the chat at https://gitter.im/charnacrypto/charnacoin-gui](https://badges.gitter.im/charnacrypto/charnacoin-gui.svg)](https://gitter.im/charnacrypto/charnacoin-gui?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Copyright (c) 2017, The Charnacoin Project
 
 ## Development Resources
