@@ -17,7 +17,7 @@ if [ ! -d $MONERO_DIR/src ]; then
 fi
 git submodule update
 git -C $MONERO_DIR fetch --tags
-git -C $MONERO_DIR checkout v0.10.0.0
+git -C $MONERO_DIR checkout v0.10.1
 
 # get charnacoin core tag
 get_tag
